@@ -3,3 +3,33 @@
     height: 15vw;
     object-fit: cover;
 }
+
+.footer{
+    display: flex;
+padding-top: 20px;
+
+}
+.footer h2{
+    color: rgb(255, 219, 219);
+}
+.footer-link{
+  
+  background-color:  #1f1f1f;
+  color: white;
+   
+    width: 100%;
+}
+.footer-link2{
+    min-height: 220px;
+   
+    margin-right: -100%;
+    width: 27.46%;
+    border-right: 2px solid black;
+    margin-top: 1.75rem;
+}
+.footer-link2 ul{
+    list-style: none;
+}
+.footer-link2 h2{
+    padding-left: 1.75rem;
+}

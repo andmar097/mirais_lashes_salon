@@ -1,13 +1,40 @@
-html, body {
-    height: 100%;
-}
-
-html {
-    display: table;
-    margin: auto;
-}
-
 body {
-    display: table-cell;
-    vertical-align: middle;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.footer {
+    display: flex;
+    padding-top: 20px;
+    margin-top: auto;
+}
+
+.footer h2 {
+    color: rgb(255, 219, 219);
+}
+
+.footer-link {
+
+    background-color: #1f1f1f;
+    color: white;
+
+    width: 100%;
+}
+
+.footer-link2 {
+    min-height: 220px;
+
+    margin-right: -100%;
+    width: 27.46%;
+    border-right: 2px solid black;
+    margin-top: 1.75rem;
+}
+
+.footer-link2 ul {
+    list-style: none;
+}
+
+.footer-link2 h2 {
+    padding-left: 1.75rem;
 }
