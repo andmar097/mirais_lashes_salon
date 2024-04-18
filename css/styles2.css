@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background: linear-gradient(rgb(238, 152, 152), rgb(255, 255, 255));
 }
 
 .footer {
@@ -42,5 +43,10 @@ body {
 .button {
     background-color: pink;
     border: none;
-    color: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

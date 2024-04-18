@@ -37,5 +37,10 @@ padding-top: 20px;
 .button {
     background-color: pink;
     border: none;
-    color: white;
+    color: black;
+    border: 2px solid black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
