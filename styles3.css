@@ -34,3 +34,9 @@ margin-top: auto;
 .footer-link2 h2{
     padding-left: 1.75rem;
 }
+
+.button {
+    background-color: pink;
+    border: none;
+    color: white;
+}
