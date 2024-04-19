@@ -20,27 +20,28 @@ padding-top: 20px;
     width: 100%;
 }
 .footer-link2{
-    min-height: 220px;
+    min-height: 50px;
    
     margin-right: -100%;
     width: 27.46%;
     border-right: 2px solid black;
     margin-top: 1.75rem;
 }
-.footer-link2 ul{
-    list-style: none;
-}
+
 .footer-link2 h2{
     padding-left: 1.75rem;
 }
 
 .button {
     background-color: pink;
-    border: none;
     color: black;
-    border: 2px solid black;
+}
+
+h1 {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
+
+}
+
+body {
+    background: linear-gradient(rgb(238, 152, 152), rgb(255, 255, 255));
 }

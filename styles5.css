@@ -24,7 +24,7 @@ body {
 }
 
 .footer-link2 {
-    min-height: 220px;
+    min-height: 50px;
 
     margin-right: -100%;
     width: 27.46%;
@@ -32,9 +32,6 @@ body {
     margin-top: 1.75rem;
 }
 
-.footer-link2 ul {
-    list-style: none;
-}
 
 .footer-link2 h2 {
     padding-left: 1.75rem;

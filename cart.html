@@ -37,21 +37,22 @@
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="services.html">Services</a>
-              </a>
+
             </li>
             <li class="nav-item">
               <a class="nav-link active" href="login.html">login</a>
-              </a>
+
             </li>
             <li class="nav-item">
               <a class="nav-link" href="Registration.html">Sign up!</a>
-              </a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="cart.html">Checkout</a>
-              </a>
+
             </li>
+          </ul>
         </div>
+      </div>
     </nav>
   </header>
   <section class="container">
@@ -59,51 +60,99 @@
     <h1> Your Shopping Cart</h1>
     <form class="row g-3">
       <div class="col-md-4">
-        <label for="validationDefault01" class="form-label">First name</label>
-        <input type="text" class="form-control" id="validationDefault01" placeholder="Jane" required>
+        <label for="f-name" class="form-label">First name</label>
+        <input type="text" class="form-control" id="f-name" placeholder="Jane" required>
       </div>
       <div class="col-md-4">
-        <label for="validationDefault02" class="form-label">Last name</label>
-        <input type="text" class="form-control" id="validationDefault02" placeholder="Doe" required>
+        <label for="l-name" class="form-label">Last name</label>
+        <input type="text" class="form-control" id="l-name" placeholder="Doe" required>
       </div>
       <div class="col-md-4">
-        <label for="validationDefaultUsername" class="form-label">Username</label>
+        <label for="username" class="form-label">Username</label>
         <div class="input-group">
-          <span class="input-group-text" id="inputGroupPrepend2">@</span>
-          <input type="text" class="form-control" id="validationDefaultUsername" aria-describedby="inputGroupPrepend2"
-            required>
+          <span class="input-group-text" id="aroba">@</span>
+          <input type="text" class="form-control" id="username" aria-describedby="inputGroupPrepend2" required>
         </div>
       </div>
       <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">City</label>
-        <input type="text" class="form-control" id="validationDefault03" required>
+        <label for="city" class="form-label">City</label>
+        <input type="text" class="form-control" id="city" required>
       </div>
       <div class="col-md-3">
-        <label for="validationDefault04" class="form-label">State</label>
-        <select class="form-select" id="validationDefault04" required>
+        <label for="state" class="form-label">State</label>
+        <select class="form-select" id="state" required>
           <option selected disabled value="">Choose...</option>
-          <option>...</option>
+          <option>Alabama</option>
+          <option>Alaska</option>
+          <option>Arizona</option>
+          <option>Arkansas</option>
+          <option>California</option>
+          <option>Colorado</option>
+          <option>Connecticut</option>
+          <option>Delaware</option>
+          <option>Florida</option>
+          <option>Georgia</option>
+          <option>Hawaii</option>
+          <option>Idaho</option>
+          <option>Illinois</option>
+          <option>Indiana</option>
+          <option>Iowa</option>
+          <option>Kansas</option>
+          <option>Kentucky</option>
+          <option>Louisiana</option>
+          <option>Maine</option>
+          <option>Maryland</option>
+          <option>Massachussets</option>
+          <option>Michigan</option>
+          <option>Minnesota</option>
+          <option>Mississippi</option>
+          <option>Missouri</option>
+          <option>Montana</option>
+          <option>Nebraska</option>
+          <option>Nevada</option>
+          <option>New Hampshire</option>
+          <option>New Jersey</option>
+          <option>New Mexico</option>
+          <option>New York</option>
+          <option>North Carolina</option>
+          <option>North Dekota</option>
+          <option>Ohio</option>
+          <option>Oklahoma</option>
+          <option>Oregon</option>
+          <option>Pennsylvania</option>
+          <option>Rhode Island</option>
+          <option>South Carolina</option>
+          <option>South Dekota</option>
+          <option>Tennessee</option>
+          <option>Texas</option>
+          <option>Utah</option>
+          <option>Vermont</option>
+          <option>Virginia</option>
+          <option>Washington</option>
+          <option>West Virginia</option>
+          <option>Wisconsin</option>
+          <option>Wyoming</option>
         </select>
       </div>
       <div class="col-md-3">
-        <label for="validationDefault05" class="form-label">Zip</label>
-        <input type="text" class="form-control" id="validationDefault05" required>
+        <label for="zip" class="form-label">Zip</label>
+        <input type="text" class="form-control" id="zip" required>
       </div>
       <div class="col-md-4">
-        <label for="validationDefault01" class="form-label">Card Holder Name</label>
-        <input type="text" class="form-control" id="validationDefault01" placeholder="Jane" required>
+        <label for="card-holder" class="form-label">Card Holder Name</label>
+        <input type="text" class="form-control" id="card-holder" placeholder="Jane" required>
       </div>
       <div class="col-md-4">
-        <label for="validationDefault02" class="form-label">Card Number</label>
-        <input type="text" class="form-control" id="validationDefault02" placeholder="0000 0000 0000 0000" required>
+        <label for="card-number" class="form-label">Card Number</label>
+        <input type="text" class="form-control" id="card-number" placeholder="0000 0000 0000 0000" required>
       </div>
       <div class="col-md-6">
-        <label for="validationDefault03" class="form-label">Experiation Date</label>
-        <input type="text" class="form-control" id="validationDefault03" placeholder="(mm/yy)">
+        <label for="exp-date" class="form-label">Experiation Date</label>
+        <input type="text" class="form-control" id="exp-date" placeholder="(mm/yy)">
       </div>
       <div class="col-md-3">
-        <label for="validationDefault05" class="form-label">CCV</label>
-        <input type="text" class="form-control" id="validationDefault05" placeholder="000" required>
+        <label for="ccv" class="form-label">CCV</label>
+        <input type="text" class="form-control" id="ccv" placeholder="000" required>
       </div>
       <div class="col-12">
         <button class="btn btn-primary" type="submit">Submit form</button>
@@ -150,11 +199,6 @@
     <div class="footer-link">
       <div class="footer-link2">
         <h2>Mirai's Lashes Salon</h2>
-        <ul>
-          <li>Social Media</li>
-          <li>Contact Us</li>
-          <li>Careers</li>
-        </ul>
       </div>
     </div>
 
